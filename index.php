@@ -7,11 +7,11 @@ function calculateProduct() {
 
   // determine the sign of the product using sign
   if ($userNum1 >= 0 && $userNum2 >= 0) {
-    $sign = 1; // both positive
+    $sign = 1; // if both positive
   } elseif ($userNum1 < 0 && $userNum2 < 0) {
-    $sign = 1; // both negative
+    $sign = 1; // if both negative
   } else {
-    $sign = -1; // one positive, one negative
+    $sign = -1; // if one positive, one negative
   }
 
   // use a for loop to calculate the product of numbers
